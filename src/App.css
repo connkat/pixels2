@@ -30,9 +30,19 @@ h3 {
   box-shadow: 10px 10px 8px #888888;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .logo {
   height: 20vh;
   padding: 3vh;
+}
+
+.title {
+  margin: auto;
+  padding: 5vh;
 }
 
 .buttons {
