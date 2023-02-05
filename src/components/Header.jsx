@@ -9,6 +9,10 @@ function Header() {
     <ThemeWrapper>
       <div className="Header">
         <img src={logo} className="logo" alt="logo" />
+        <div className="title">
+          <h1>Pixels and Pints!</h1>
+          <p>Home of Calgary's Oldest Tech Meetup</p>
+        </div>
         <div className="buttons">
           <div className="meetup-button">
             <a

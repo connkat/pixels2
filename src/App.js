@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <div className="App">
-        <h2>Pixels Job Board</h2>
+        <h3>Pixels Job Board</h3>
         <div dangerouslySetInnerHTML={{ __html: body }} />{" "}
       </div>
     </>
