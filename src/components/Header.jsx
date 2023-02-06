@@ -34,7 +34,7 @@ export default function Header() {
   const displayDesktop = () => {
     return (
       <ThemeWrapper>
-        <div className="Nav">
+        <div className="Header">
           <Grid container spacing={2}>
             <Grid item xs={2}>
               <img src={logo} className="logo" alt="logo" />
@@ -87,7 +87,7 @@ export default function Header() {
   const displayMobile = () => {
     return (
       <Toolbar>
-        <div className="mobile_header">
+        <div className="Header_mobile">
           <img src={logo} className="logo_mobile" alt="logo" />
           <div className="buttons-mobile	">
             <div className="meetup-button">
@@ -119,7 +119,7 @@ export default function Header() {
   return (
     <header>
       <AppBar
-        style={{ background: "#FFFFFF", color: "#000000" }}
+        style={{ background: "#FFFFFF", color: "#000000", position: "fixed" }}
         position="absolute"
       >
         {mobileView ? displayMobile() : displayDesktop()}
