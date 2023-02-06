@@ -14,7 +14,7 @@ h3 {
   padding-bottom: 5vh;
 }
 
-.Header {
+.Nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -61,4 +61,55 @@ a {
 .meetup-button button {
   font-size: 0.7rem !important;
   background-color: #f5c03a;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header {
+    border-bottom: 1px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 10px 10px 8px #888888;
+  }
+
+  .logo_mobile {
+    display: block;
+    height: 10vh;
+    padding: 2vh;
+  }
+
+  .App {
+    padding-top: 15vh;
+  }
+
+  .mobile_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .buttons-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3vh;
+  }
+
+  .discord-button button {
+    margin-top: 0;
+    font-size: 0.5rem !important;
+    background-color: #be333a;
+    font-family: "Press Start", cursive;
+    margin: 2vh;
+  }
+
+  .meetup-button button {
+    font-size: 0.5rem !important;
+    background-color: #f5c03a;
+    font-family: "Press Start", cursive;
+    margin: 2vh;
+  }
 }
