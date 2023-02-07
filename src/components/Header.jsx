@@ -41,17 +41,18 @@ export default function Header() {
             </Grid>
             <Grid item xs={8}>
               <div className="title">
-                <h1>
-                  Pixels and Pints
+                <h1>Pixels and Pints</h1>
+                <p>
+                  Home of Calgary{" "}
                   <a
                     href="https://pixels-og.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    !
+                    '
                   </a>
-                </h1>
-                <p>Home of Calgary's Oldest Tech Meetup</p>
+                  s Oldest Tech Meetup
+                </p>
               </div>
             </Grid>
             <Grid item xs={2}>
