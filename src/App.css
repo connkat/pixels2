@@ -61,7 +61,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3vh;
+  margin-top: 15%;
 }
 
 .discord-button button {
@@ -76,23 +76,18 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .Header {
-    border-bottom: 1px solid black;
-    position: fixed;
-    background-color: white;
-    z-index: 1;
-    width: 100%;
-    box-shadow: 10px 10px 8px #888888;
+  .MuiToolbar-regular {
+    height: 10vh;
   }
 
   .logo_mobile {
     display: block;
-    height: 10vh;
+    max-height: 5vh;
     padding: 2vh;
   }
 
   .App {
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
 
   .Header_mobile {
@@ -125,5 +120,13 @@ a {
     background-color: #f5c03a;
     font-family: "Press Start", cursive;
     margin: 2vh;
+  }
+
+  .job-board-title {
+    padding-top: 5vh;
+  }
+
+  .joboffer {
+    max-width: 10vh;
   }
 }

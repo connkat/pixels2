@@ -64,7 +64,7 @@ export default function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Find the next meeting</Button>
+                    <Button>Pixels Meetup</Button>
                   </a>
                 </div>
                 <div className="discord-button">
@@ -74,7 +74,7 @@ export default function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Join the Pixels Discord</Button>
+                    <Button>Pixels Discord</Button>
                   </a>
                 </div>
               </div>
