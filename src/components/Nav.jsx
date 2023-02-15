@@ -1,7 +1,11 @@
-import { AppBar, Toolbar, IconButton, Drawer } from "@material-ui/core";
-import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
+import { AppBar, Toolbar, IconButton, Drawer } from "@material-ui/core";
+
 import Header from "./Header";
+
+import logo from "../assets/pints.png";
+
+import '../App.css'
 
 const headersData = [
   {
@@ -60,7 +64,7 @@ export default function Nav() {
               onClick: handleDrawerOpen,
             }}
           >
-            <MenuIcon />
+            <img src={logo} className="logo-mobile" alt="logo" />
           </IconButton>
         </div>
         <Drawer
