@@ -17,15 +17,13 @@ function App() {
       <div className="App">
         <div className="job-board-title">
           <Grid container spacing={2}>
-          <Grid item xs={3}/>
+            <Grid item xs={3} />
             <Grid item xs={12} sm={6}>
               <h3>Pixels Job Board</h3>
             </Grid>
-            <Grid item xs={10} sm={3}>
-              <p>
-                Powered by
-                <img src={joboffer} className="joboffer" alt="joboffer" />{" "}
-              </p>
+            <Grid item xs={12} sm={3}>
+              <p>Sponsored by</p>
+              <img src={joboffer} className="joboffer" alt="joboffer" />{" "}
             </Grid>
           </Grid>
         </div>

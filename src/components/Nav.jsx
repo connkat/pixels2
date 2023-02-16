@@ -5,7 +5,7 @@ import Header from "./Header";
 
 import logo from "../assets/pints.png";
 
-import '../App.css'
+import "../App.css";
 
 const headersData = [
   {
@@ -57,10 +57,6 @@ export default function Nav() {
         <div className="header-wrapper">
           <IconButton
             {...{
-              edge: "end",
-              color: "#ffffff",
-              "aria-label": "menu",
-              "aria-haspopup": "true",
               onClick: handleDrawerOpen,
             }}
           >
@@ -82,7 +78,9 @@ export default function Nav() {
 
   const getDrawerChoices = () => {
     return (
-      <>
+      <div className="sidebar">
+        <h4>Pixels and Pints</h4>
+        <p>External Links:</p>
         <div className="titles-map">
           {headersData.map(({ label, href }) => {
             return (
@@ -95,7 +93,7 @@ export default function Nav() {
             );
           })}
         </div>
-      </>
+      </div>
     );
   };
 
