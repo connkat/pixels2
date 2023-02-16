@@ -50,11 +50,21 @@ h2 {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+}
+#acuspire-job-board a {
+  font-size: 2vh;
+}
+
+span .job-title {
+  font-size: 2vh;
+}
+
+.description .job-description-wrapper {
+  font-size: 1.5vh;
 }
 
 #acuspire-jobs-widget {
-  font-family: "Press Start", cursive !important;;
+  font-family: "Press Start", cursive !important;
 }
 
 .acuspire-btn-apply {
