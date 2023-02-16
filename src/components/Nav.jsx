@@ -81,16 +81,8 @@ export default function Nav() {
   };
 
   const getDrawerChoices = () => {
-    // const handleDrawerClose = () =>
-    //   setState((prevState) => ({ ...prevState, drawerOpen: false }));
-
     return (
       <>
-        {/* <div className="x">
-          <button onClick={handleDrawerClose}>
-            <img src={mobileX} alt="exit" />
-          </button>
-        </div> */}
         <div className="titles-map">
           {headersData.map(({ label, href }) => {
             return (

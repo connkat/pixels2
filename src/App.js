@@ -18,7 +18,7 @@ function App() {
         <div className="job-board-title">
           <Grid container spacing={2}>
           <Grid item xs={3}/>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={6}>
               <h3>Pixels Job Board</h3>
             </Grid>
             <Grid item xs={10} sm={3}>
