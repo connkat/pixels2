@@ -37,7 +37,9 @@ export default function Header() {
         <div className="Header">
           <Grid container spacing={2}>
             <Grid item xs={2}>
-              <img src={logo} className="logo" alt="logo" />
+              <a href="http://pixelsyyc.com">
+                <img src={logo} className="logo" alt="logo" />
+              </a>
             </Grid>
             <Grid item xs={8}>
               <div className="title">

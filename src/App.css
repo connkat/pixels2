@@ -1,68 +1,19 @@
-h2 {
-  font-family: "Source Code Pro", monospace;
+.App {
+  font-family: "Source Code Pro", monospace !important;
 }
+
 .job-board-title {
-  /* font-family: "Lato", sans-serif; */
-  font-family: "Source Code Pro", monospace;
   padding-top: 25vh;
   text-align: center;
   font-size: 2rem;
-}
-
-.job-board-title p {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  font-size: 1vh;
 }
 
 .joboffer {
   max-width: 20vh;
 }
 
-.title {
-  text-align: center;
-  padding-bottom: 5vh;
-  font-size: 2vh;
-}
-
-.Header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 10px;
-  font-family: "Source Code Pro", monospace;
-  text-align: center;
-  border-bottom: 1px solid black;
-  position: fixed;
-  background-color: white;
-  z-index: 1;
-  width: 100%;
-  box-shadow: 10px 10px 8px #888888;
-}
-
-.Header a {
-  text-decoration: none;
-}
-
-a {
-  color: inherit;
-}
-#acuspire-job-board a {
-  font-size: 2vh;
-}
-
 #acuspire-job-board p {
   color: black;
-}
-
-span .job-title {
-  font-size: 2vh;
-}
-
-.description .job-description-wrapper {
-  font-size: 1.5vh;
 }
 
 #acuspire-jobs-widget {
@@ -73,55 +24,14 @@ span .job-title {
   font-family: "Source Code Pro", monospace !important;
 }
 
-.logo {
-  max-height: 15vh;
-  padding: 3vh;
-}
-
-.title {
-  margin: auto;
-  padding: 2vh;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 15%;
-}
-
-.discord-button button {
-  margin-top: 2vh;
-  font-size: 1.5vh !important;
-  background-color: #be333a;
-}
-
-.meetup-button button {
-  font-size: 1.5vh !important;
-  background-color: #f5c03a;
-}
-
-.sponsored {
-  padding-top: 5vh;
-}
-
 .sponsored p {
   font-size: 2vh;
+  font-family: "Source Code Pro", monospace;
 }
 
 @media only screen and (max-width: 600px) {
-  .MuiToolbar-regular {
-    height: 10vh;
-  }
-
   .sponsored {
     padding-top: 0;
-  }
-
-  .logo_mobile {
-    display: block;
-    max-height: 5vh;
-    padding: 2vh;
   }
 
   img {
@@ -142,28 +52,6 @@ span .job-title {
     z-index: 1;
   }
 
-  .buttons-mobile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 3vh;
-  }
-
-  .discord-button button {
-    margin-top: 0;
-    font-size: 0.5rem !important;
-    background-color: #be333a;
-    font-family: "Source Code Pro", monospace;
-    margin: 2vh;
-  }
-
-  .meetup-button button {
-    font-size: 0.5rem !important;
-    background-color: #f5c03a;
-    font-family: "Source Code Pro", monospace;
-    margin: 2vh;
-  }
-
   .job-board-title {
     padding-top: 5vh;
   }
@@ -181,19 +69,5 @@ span .job-title {
     max-width: 10vh;
     float: right;
     padding-right: 3vh;
-  }
-
-  .sidebar {
-    font-family: "Source Code Pro", monospace;
-    padding: 2vh;
-  }
-
-  a {
-    color: #be333a;
-    text-decoration: underline;
-  }
-
-  li {
-    line-height: 30px;
   }
 }

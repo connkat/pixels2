@@ -5,7 +5,7 @@ import Header from "./Header";
 
 import logo from "../assets/pints.png";
 
-import "../App.css";
+import "./Header.css";
 
 const headersData = [
   {
