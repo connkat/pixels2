@@ -20,9 +20,10 @@ h2 {
   max-width: 20vh;
 }
 
-.Header h3 {
+.title {
   text-align: center;
   padding-bottom: 5vh;
+  font-size: 2vh;
 }
 
 .Header {
@@ -41,11 +42,19 @@ h2 {
   box-shadow: 10px 10px 8px #888888;
 }
 
+.Header a {
+  text-decoration: none;
+}
+
 a {
   color: inherit;
 }
 #acuspire-job-board a {
   font-size: 2vh;
+}
+
+#acuspire-job-board p {
+  color: black;
 }
 
 span .job-title {
@@ -71,7 +80,7 @@ span .job-title {
 
 .title {
   margin: auto;
-  padding: 5vh;
+  padding: 2vh;
 }
 
 .buttons {
@@ -83,12 +92,12 @@ span .job-title {
 
 .discord-button button {
   margin-top: 2vh;
-  font-size: 0.7rem !important;
+  font-size: 1.5vh !important;
   background-color: #be333a;
 }
 
 .meetup-button button {
-  font-size: 0.7rem !important;
+  font-size: 1.5vh !important;
   background-color: #f5c03a;
 }
 
