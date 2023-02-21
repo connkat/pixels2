@@ -24,33 +24,12 @@
   font-family: "Source Code Pro", monospace !important;
 }
 
-.sponsored p {
+.sponsored {
   font-size: 2vh;
-  font-family: "Source Code Pro", monospace;
+  line-height: 0;;
 }
 
 @media only screen and (max-width: 600px) {
-  .sponsored {
-    padding-top: 0;
-  }
-
-  img {
-    max-height: 7vh;
-  }
-
-  .App {
-    padding-top: 0;
-  }
-
-  .Header_mobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    position: fixed;
-    z-index: 1;
-  }
 
   .job-board-title {
     padding-top: 5vh;

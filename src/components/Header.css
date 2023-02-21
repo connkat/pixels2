@@ -31,7 +31,6 @@
   padding: 0px 10px;
   font-family: "Source Code Pro", monospace;
   text-align: center;
-  border-bottom: 1px solid black;
 }
 
 a {
@@ -40,35 +39,11 @@ a {
 
 @media only screen and (max-width: 600px) {
   .MuiToolbar-regular {
-    height: 10vh;
+    max-height: 10vh;
   }
 
-  .logo_mobile {
-    display: block;
-    max-height: 5vh;
-    padding: 2vh;
-  }
-
-  .buttons-mobile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 3vh;
-  }
-
-  .discord-button button {
-    margin-top: 0;
-    font-size: 0.5rem !important;
-    background-color: #be333a;
-    font-family: "Source Code Pro", monospace;
-    margin: 2vh;
-  }
-
-  .meetup-button button {
-    font-size: 0.5rem !important;
-    background-color: #f5c03a;
-    font-family: "Source Code Pro", monospace;
-    margin: 2vh;
+  img {
+    max-height: 7vh;
   }
 
   .sidebar {
@@ -79,9 +54,5 @@ a {
   a {
     color: #be333a;
     text-decoration: underline;
-  }
-
-  li {
-    line-height: 30px;
   }
 }
