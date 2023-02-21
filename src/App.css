@@ -1,16 +1,9 @@
-@font-face {
-  font-family: "Press Start";
-  src: url("./fonts/PressStart2P-Regular.ttf");
-}
-
 h2 {
-  /* font-family: "Lato", sans-serif;
-   */
-  font-family: "Press Start", cursive;
+  font-family: "Source Code Pro", monospace;
 }
 .job-board-title {
   /* font-family: "Lato", sans-serif; */
-  font-family: "Press Start", cursive;
+  font-family: "Source Code Pro", monospace;
   padding-top: 25vh;
   text-align: center;
   font-size: 2rem;
@@ -38,7 +31,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 0px 10px;
-  font-family: "Press Start", cursive;
+  font-family: "Source Code Pro", monospace;
   text-align: center;
   border-bottom: 1px solid black;
   position: fixed;
@@ -64,11 +57,11 @@ span .job-title {
 }
 
 #acuspire-jobs-widget {
-  font-family: "Press Start", cursive !important;
+  font-family: "Source Code Pro", monospace !important;
 }
 
 .acuspire-btn-apply {
-  font-family: "Press Start", cursive !important;
+  font-family: "Source Code Pro", monospace !important;
 }
 
 .logo {
@@ -99,9 +92,21 @@ span .job-title {
   background-color: #f5c03a;
 }
 
+.sponsored {
+  padding-top: 5vh;
+}
+
+.sponsored p {
+  font-size: 2vh;
+}
+
 @media only screen and (max-width: 600px) {
   .MuiToolbar-regular {
     height: 10vh;
+  }
+
+  .sponsored {
+    padding-top: 0;
   }
 
   .logo_mobile {
@@ -139,14 +144,14 @@ span .job-title {
     margin-top: 0;
     font-size: 0.5rem !important;
     background-color: #be333a;
-    font-family: "Press Start", cursive;
+    font-family: "Source Code Pro", monospace;
     margin: 2vh;
   }
 
   .meetup-button button {
     font-size: 0.5rem !important;
     background-color: #f5c03a;
-    font-family: "Press Start", cursive;
+    font-family: "Source Code Pro", monospace;
     margin: 2vh;
   }
 
@@ -170,7 +175,7 @@ span .job-title {
   }
 
   .sidebar {
-    font-family: "Press Start", cursive;
+    font-family: "Source Code Pro", monospace;
     padding: 2vh;
   }
 

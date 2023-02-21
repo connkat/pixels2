@@ -22,8 +22,10 @@ function App() {
               <h3>Pixels Job Board</h3>
             </Grid>
             <Grid item xs={12} sm={3}>
-              <p>Sponsored by</p>
-              <img src={joboffer} className="joboffer" alt="joboffer" />{" "}
+              <div className="sponsored">
+                <p>Sponsored by</p>
+                <img src={joboffer} className="joboffer" alt="joboffer" />
+              </div>
             </Grid>
           </Grid>
         </div>

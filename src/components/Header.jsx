@@ -43,7 +43,7 @@ export default function Header() {
               <div className="title">
                 <h1>Pixels and Pints</h1>
                 <p>
-                  Home of Calgary{" "}
+                  Home of Calgary
                   <a
                     href="https://pixels-og.netlify.app/"
                     target="_blank"
