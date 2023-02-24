@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid";
 
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 
 import joboffer from "./assets/joboffer.png";
 
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Nav />
+      <Header />
       <div className="App">
         <div className="job-board-title">
           <Grid container spacing={2}>
