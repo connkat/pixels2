@@ -34,10 +34,10 @@ export default function Header() {
         <Grid item xs={3}>
           <div className="links">
             <div className="links">
-              <a href="https://discord.gg/y5JKKkHYgN" alt="button">
+              <a href="https://discord.gg/y5JKKkHYgN" alt="discord">
                 <img src={discord} className="link" alt="logo" />
               </a>
-              <a href="https://www.meetup.com/pxandpints/" alt="button">
+              <a href="https://www.meetup.com/pxandpints/" alt="meetup">
                 <img src={meetup} className="link" alt="logo" />
               </a>
             </div>
