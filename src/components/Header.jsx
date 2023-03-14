@@ -10,12 +10,12 @@ export default function Header() {
   return (
     <div className="Header">
       <Grid container spacing={2}>
-        <Grid item xs={3}>
+        <Grid item md={2} xs={3}>
           <a href="http://pixelsyyc.com">
             <img src={logo} className="logo" alt="logo" />
           </a>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={8} xs={6}>
           <div className="title">
             <h1>Pixels &amp; Pints</h1>
             <p>
@@ -31,16 +31,16 @@ export default function Header() {
             </p>
           </div>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item md={2} xs={3}>
           <div className="links">
             <div className="links">
               <a href="https://discord.gg/y5JKKkHYgN" alt="discord">
                 <img src={discord} className="link" alt="discord" />
-                <p className='desktop_label'>Discord</p>
+                <p className="desktop_label">Discord</p>
               </a>
               <a href="https://www.meetup.com/pxandpints/" alt="meetup">
                 <img src={meetup} className="link" alt="meetup" />
-                <p className='desktop_label'>Meetup</p>
+                <p className="desktop_label">Meetup</p>
               </a>
             </div>
           </div>
