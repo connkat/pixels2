@@ -1,3 +1,14 @@
+.Header {
+  padding: 0px 10px;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #888888;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+}
+
 .logo {
   max-height: 15vh;
   padding: 3vh;
@@ -17,29 +28,24 @@
   margin-top: 15%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .links {
   flex-direction: row;
-  padding: 5vh;
+  padding: 2vh;
 }
 
 .link {
   max-height: 5vh;
-  padding-right: 5vh;
+  padding-right: 2vh;
 }
 
-.Header {
-  padding: 0px 10px;
-  font-family: "Source Code Pro", monospace;
-  text-align: center;
-  box-shadow: 5px 5px 5px 5px #888888;
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-  background-color: white;
-}
-
-a {
-  text-decoration: none;
+.links a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media only screen and (max-width: 820px) {
@@ -74,5 +80,10 @@ a {
   .sidebar {
     font-family: "Source Code Pro", monospace;
     padding: 2vh;
+  }
+
+  .desktop_label {
+    display: none;
+    visibility: hidden;
   }
 }

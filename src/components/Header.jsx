@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 
 import logo from "../assets/pints.png";
-import discord from "../assets/discord.svg";
+import discord from "../assets/discord.png";
 import meetup from "../assets/meetup.png";
 
 import "./Header.css";
@@ -35,10 +35,12 @@ export default function Header() {
           <div className="links">
             <div className="links">
               <a href="https://discord.gg/y5JKKkHYgN" alt="discord">
-                <img src={discord} className="link" alt="logo" />
+                <img src={discord} className="link" alt="discord" />
+                <p className='desktop_label'>Discord</p>
               </a>
               <a href="https://www.meetup.com/pxandpints/" alt="meetup">
-                <img src={meetup} className="link" alt="logo" />
+                <img src={meetup} className="link" alt="meetup" />
+                <p className='desktop_label'>Meetup</p>
               </a>
             </div>
           </div>
