@@ -27,7 +27,7 @@
 .sponsored {
 	font-size: 2vh;
 	line-height: 0;
-	padding-top: 4vh;
+	margin-top: 3vh;
 }
 
 .login {
@@ -49,9 +49,12 @@
 .login-wrapper button {
 	font-family: "Source Code Pro", monospace !important;
 	height: 3vh;
-	margin: auto;
 	min-width: 3vh;
 	font-size: 1.5vh;
+}
+
+.login-wrapper a {
+	margin: auto;
 }
 
 .button-container {
@@ -80,15 +83,17 @@
 		padding-right: 3vh;
 	}
 
-  .sponsored {
-    display: none;
-    visibility: hidden;
-  }
+	.sponsored {
+		display: none;
+		visibility: hidden;
+	}
 
-  .login {
-    justify-content: center;
-    border:0ch;
-    background-color: white;
-    margin: auto;
-  }
+	.login-wrapper {
+		justify-content: center;
+	}
+	.login {
+		justify-content: center;
+		border: 0ch;
+		margin: auto;
+	}
 }

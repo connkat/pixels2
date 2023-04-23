@@ -17,7 +17,8 @@ function App() {
 			<div className="App">
 				<div className="job-board-title">
 					<Grid container spacing={2}>
-						<Grid item sm={3}>
+						<Grid item sm={1} />
+						<Grid item sm={2}>
 							<div className="sponsored">
 								<p>Sponsored by</p>
 								<img src={joboffer} className="joboffer" alt="joboffer" />
@@ -26,45 +27,44 @@ function App() {
 						<Grid item xs={12} sm={6}>
 							<h3>Pixels Job Board</h3>
 						</Grid>
-            <Grid item xs={0} sm={1} />
-						<Grid item xs={10} sm={2}>
+						<Grid item xs={12} sm={2}>
 							<div className="login">
 								<div className="login-wrapper">
 									<p>Employers</p>
 									<div className="button-container">
-										<button
+										<a
 											href="https://pixels-recruiter.joboffer.ai/register"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											Register
-										</button>
-										<button
+											<button>Register</button>
+										</a>
+										<a
 											href="https://pixels-recruiter.joboffer.ai/login"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											Login
-										</button>
+											<button>Login</button>
+										</a>
 									</div>
 								</div>
 								<div className="login-wrapper">
 									<p>Jobseekers</p>
 									<div className="button-container">
-										<button
+										<a
 											href="https://pixels.joboffer.ai/register"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											Register
-										</button>
-										<button
+											<button>Register</button>
+										</a>
+										<a
 											href="https://pixels.joboffer.ai/login"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											Login
-										</button>
+											<button>Login</button>
+										</a>
 									</div>
 								</div>
 							</div>
