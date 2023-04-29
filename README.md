@@ -10,4 +10,4 @@ Original design now sadly found [here](https://pixels-og.netlify.app/).
 * Clone this app locally
 * Install packages using `yarn`
 * Compile code and run locally using `yarn start`
-* Profit?
+* Profit??
